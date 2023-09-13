@@ -17,7 +17,7 @@ public class Main {
 		}
 						
 		double[][] res = new double[14][15];
-		
+				
 		Integer[] numbers = { 5, 9, 10, 11, 12, 14, 17 };
 		
 		for (int i = 0; i < res.length; i++) {
