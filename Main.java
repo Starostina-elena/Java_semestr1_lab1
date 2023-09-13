@@ -23,7 +23,7 @@ public class Main {
 		for (int i = 0; i < res.length; i++) {
 			for (int j = 0; j < res[0].length; j++) {
 				if (c[i] == 8) {
-					res[i][j] = Math.pow(Math.E, Math.pow(Math.pow(x[j], 0.25 * (1 - x[j])), Math.log(Math.abs(x[j])) / 2)); // при -10.5 результат равен 0.0
+					res[i][j] = Math.pow(Math.E, Math.pow(Math.pow(x[j], 0.25 * (1 - x[j])), Math.log(Math.abs(x[j])) / 2));
 				}
 				else if (Arrays.asList(numbers).contains((int)c[i])) {
 					res[i][j] = 3.0 / 4 * (Math.pow(2 * Math.sin(x[j]), 3) - 2.0 / 3);
