@@ -37,7 +37,7 @@ public class Main {
 		
 		for (int i = 0; i < res.length; i++) {
 			for (int j = 0; j < res[0].length; j++) {
-				System.out.print(String.format("%.5f ", res[i][j]));
+				System.out.printf("%.5f ", res[i][j]);
 			}
 			System.out.println();
 		}
